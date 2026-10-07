@@ -1,0 +1,84 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f6f8;
+  text-align: center;
+}
+
+h1 {
+  background: #172554;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+nav {
+  background: white;
+  padding: 15px;
+}
+
+nav a {
+  margin: 15px;
+  text-decoration: none;
+  color: #172554;
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 25px;
+}
+
+.stats div {
+  background: white;
+  padding: 20px;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #ccc;
+}
+
+.stats b {
+  font-size: 25px;
+}
+
+input {
+  padding: 12px;
+  width: 250px;
+  margin: 10px;
+}
+
+.jobs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 220px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #ccc;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .stats div {
+    width: 120px;
+  }
+
+  input {
+    width: 80%;
+  }
+}
